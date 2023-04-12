@@ -1,0 +1,28 @@
+{
+  "version": "v1.0.0",
+
+  "server": {
+    "port": 3000,
+    "port_ssl": 3001
+  },
+
+  "auth": { 
+    "accessTokenExpTime": "72h",
+    "refreshTokenExpTime": 200,
+    "secret_key": "1122334455"
+  },
+
+  "log":  {
+    "console" : "true"
+  },
+
+  "home": "/",
+
+  "db": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "",
+    "database": "copytrade",
+    "port": 3306
+  }
+}
